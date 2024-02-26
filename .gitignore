@@ -173,3 +173,5 @@ node_modules/
 .vscode/settings.json
 models/
 model/
+
+.wrangler/

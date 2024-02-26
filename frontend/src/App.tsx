@@ -3,12 +3,9 @@ import Navigation from './Navigation';
 import Conversation from './conversation/Conversation';
 import About from './About';
 import PageNotFound from './PageNotFound';
-import { inject } from '@vercel/analytics';
 import { useMediaQuery } from './hooks';
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Setting from './Setting';
-
-inject();
 
 export default function App() {
   const { isMobile } = useMediaQuery();

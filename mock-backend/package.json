@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "@types/json-server": "^0.14.5"
+    "@cloudflare/workers-types": "^4.20240222.0",
+    "@types/json-server": "^0.14.5",
+    "wrangler": "^3.29.0"
   }
 }

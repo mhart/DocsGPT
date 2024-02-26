@@ -1,0 +1,4 @@
+name = "docsgpt-api"
+account_id = "85d0c02b57ed75faf9b18f92d5c01602" # Cloudflare Docs
+main = "src/worker.js"
+compatibility_date = "2023-12-01"
